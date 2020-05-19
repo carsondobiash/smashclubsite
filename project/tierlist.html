@@ -1,0 +1,395 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- Set viewport  -->
+
+	<meta name="viewport" content="width=device-width" />
+
+	<title>CSU Smash Club</title>
+
+	<!-- Main style sheet  -->
+
+	<link href="css/wide.css" rel="stylesheet" type="text/css">
+
+	<!-- Narrow style sheet  -->
+
+	<link href="css/narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
+
+	<!-- Link to jquery  -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- Controls function of hamburger menu  -->
+
+	<script>
+		$(document).ready(function() {
+			$(".cross").hide();
+			$(".menu").hide();
+			$(".hamburger").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".hamburger").hide();
+					$(".cross").show();
+				});
+			});
+
+			$(".cross").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".cross").hide();
+					$(".hamburger").show();
+				});
+			});
+		});
+
+	</script>
+
+
+	<div id="wrapper">
+
+		<!-- Hamburger menu controls -->
+
+		<div id="mobile">
+			<button class="hamburger">&#x2261;</button>
+			<button class="cross">x</button>
+		</div>
+
+		<!-- Hamburger menu options  -->
+
+		<div class="menu">
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="schedule.html">Schedule</a></li>
+				<li><a href="tournament.html">Tournament</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="rankings.html">Rankings</a></li>
+				<li><a href="tierlist.html">Tier List</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</div>
+		
+<!--		<header><img src="images/smash-splash.gif" alt="Smash Banner"></header>-->
+
+		<div id="content">
+			<div id="sidebar">
+
+				<a href="index.html"><img src="images/focosmash.jpg" alt="FOCO Smash Logo"></a>
+				
+				<ul>
+					<li><a href="about.html">About</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="tournament.html">Tournament</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="rankings.html">Rankings</a></li>
+                    <li><a href="tierlist.html">Tier List</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+				</ul>
+
+			</div>
+			
+			<div id="main">
+
+				<h1>Tier List</h1>
+				
+				<p>This is a tier list showing which characters are currently the best to use in tournaments.</p>
+				
+				<div id="tierList">
+				    <div class="tierRow">
+                        <div class="tierBox" style="background-color: red">
+                            <h2>S</h2>
+                        </div>
+				        <div class="characters">
+                            <div class="charImg">
+                                <h2>Pikachu</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Peach</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Palutena</h2>
+                            </div>
+				        </div>
+				    </div>
+				    
+				    <div class="tierRow">
+                        <div class="tierBox" style="background-color: orange">
+                            <h2>A+</h2>
+                        </div>
+				        <div class="characters">
+                            <div class="charImg">
+                                <h2>Pichu</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Olimar</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Joker</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Snake</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Inkling</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Wolf</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Lucina</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Roy</h2>
+                            </div>
+				        </div>
+				    </div>
+				    
+				    <div class="tierRow">
+                        <div class="tierBox" style="background-color: orange">
+                            <h2>A</h2>
+                        </div>
+				        <div class="characters">
+                            <div class="charImg">
+                                <h2>Wario</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Cloud</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Fox</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Pkmn Trainer</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Falco</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Greninja</h2>
+                            </div>
+				        </div>
+				    </div>
+				    
+				    <div class="tierRow">
+                        <div class="tierBox" style="background-color: orange">
+                            <h2>A-</h2>
+                        </div>
+				        <div class="characters">
+                            <div class="charImg">
+                                <h2>R.O.B</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Zero Suit Samus</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Chrom</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Pacman</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Shulk</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Marth</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Young Link</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Bowser</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Megaman</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Ken</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Ness</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Mario</h2>
+                            </div>
+				        </div>
+				    </div>
+				    
+				    <div class="tierRow">
+                        <div class="tierBox" style="background-color: greenyellow">
+                            <h2>B+</h2>
+                        </div>
+				        <div class="characters">
+                            <div class="charImg">
+                                <h2>Marth</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>King Dedede</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Simon</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Duck Hunt</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Luigi</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Donkey Kong</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Captain Falcon</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Ryu</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Diddy Kong</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Lucario</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Lucas</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Mewtwo</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Link</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Rosalina</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Ice CLimbers</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Yoshi</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Ganondorf</h2>
+                            </div>
+				        </div>
+				    </div>
+				    
+				    <div class="tierRow">
+                        <div class="tierBox" style="background-color: greenyellow">
+                            <h2>B</h2>
+                        </div>
+				        <div class="characters">
+                            <div class="charImg">
+                                <h2>Game 'n Watch</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Meta Knight</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Sonic</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Sheik</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Wii Fit</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Pit</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>King K.</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Bowser Jr.</h2>
+                            </div>
+				        </div>
+				    </div>
+				    
+				    <div class="tierRow">
+                        <div class="tierBox" style="background-color: greenyellow">
+                            <h2>B-</h2>
+                        </div>
+				        <div class="characters">
+                            <div class="charImg">
+                                <h2>Robin</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Kirby</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Ridley</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Zelda</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Villager</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Toon Link</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Incineroar</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Corrin</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Dr. Mario</h2>
+                            </div>
+				        </div>
+				    </div>
+				    
+				    <div class="tierRow">
+                        <div class="tierBox" style="background-color: lightskyblue">
+                            <h2>C</h2>
+                        </div>
+				        <div class="characters">
+                            <div class="charImg">
+                                <h2>Bayonetta</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Samus</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Pirahna Plant</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Jigglypuff</h2>
+                            </div>
+                            <div class="charImg">
+                                <h2>Isabelle</h2>
+                            </div>
+				        </div>
+				    </div>
+				    
+				    <div class="tierRow">
+                        <div class="tierBox" style="background-color: mediumpurple">
+                            <h2>D</h2>
+                        </div>
+				        <div class="characters">
+                            <div class="charImg">
+                                <h2>Little Mac</h2>
+                            </div>
+				        </div>
+				    </div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<footer>CSU Smash Club | Copyright 2020</footer>
+
+	</div>
+
+</body>
+
+</html>

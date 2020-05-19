@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- Set viewport  -->
+
+	<meta name="viewport" content="width=device-width" />
+
+	<title>CSU Smash Club | About us</title>
+
+	<!-- Main style sheet  -->
+
+	<link href="css/wide.css" rel="stylesheet" type="text/css">
+
+	<!-- Narrow style sheet  -->
+
+	<link href="css/narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
+
+	<!-- Link to jquery  -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- Controls function of hamburger menu  -->
+
+	<script>
+		$(document).ready(function() {
+			$(".cross").hide();
+			$(".menu").hide();
+			$(".hamburger").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".hamburger").hide();
+					$(".cross").show();
+				});
+			});
+
+			$(".cross").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".cross").hide();
+					$(".hamburger").show();
+				});
+			});
+		});
+
+	</script>
+
+
+	<div id="wrapper">
+
+		<!-- Hamburger menu controls -->
+
+		<div id="mobile">
+			<button class="hamburger">&#x2261;</button>
+			<button class="cross">x</button>
+		</div>
+
+		<!-- Hamburger menu options  -->
+
+		<div class="menu">
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="schedule.html">Schedule</a></li>
+				<li><a href="tournament.html">Tournament</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="rankings.html">Rankings</a></li>
+				<li><a href="tierlist.html">Tier List</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</div>
+		
+<!--		<header><img src="images/smash-splash.gif" alt="Smash Banner"></header>-->
+
+		<div id="content">
+			<div id="sidebar">
+
+				<a href="index.html"><img src="images/focosmash.jpg" alt="FOCO Smash Logo"></a>
+				
+				<ul>
+					<li><a href="about.html">About</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="tournament.html">Tournament</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="rankings.html">Rankings</a></li>
+                    <li><a href="tierlist.html">Tier List</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+				</ul>
+
+			</div>
+			
+			<div id="main">
+                
+                <img src="images/smash-splash.jpg" alt="Smash Banner">
+
+				<h1>About</h1>
+
+				<p>A friendly group open to all levels of Smash players. Weekly tournaments every Wednesday at Behavioral Sciences Room 103 from 5:30PM along with random nights to play friendlies. Join, meet people, and play some Smash!</p>
+
+				<p>We play Super Smash Bros Ultimate and Super Smash Bros Melee, the most recent installment in Nintendo's Super Smash Bros Game series. There are over 74 characters including all characters from previous games and over 100 stages to do battle. We play with a 3 stock rule set and no items (the way the pros would play).</p>
+				
+				<p>Come join us!</p>
+
+			</div>
+
+		</div>
+
+		<footer>CSU Smash Club | Copyright 2020</footer>
+
+	</div>
+
+</body>
+
+</html>

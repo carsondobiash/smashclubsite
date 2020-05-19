@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- Set viewport  -->
+
+	<meta name="viewport" content="width=device-width" />
+
+	<title>CSU Smash Club | Tournaments</title>
+
+	<!-- Main style sheet  -->
+
+	<link href="css/wide.css" rel="stylesheet" type="text/css">
+
+	<!-- Narrow style sheet  -->
+
+	<link href="css/narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
+
+	<!-- Link to jquery  -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- Controls function of hamburger menu  -->
+
+	<script>
+		$(document).ready(function() {
+			$(".cross").hide();
+			$(".menu").hide();
+			$(".hamburger").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".hamburger").hide();
+					$(".cross").show();
+				});
+			});
+
+			$(".cross").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".cross").hide();
+					$(".hamburger").show();
+				});
+			});
+		});
+
+	</script>
+
+
+	<div id="wrapper">
+
+		<!-- Hamburger menu controls -->
+
+		<div id="mobile">
+			<button class="hamburger">&#x2261;</button>
+			<button class="cross">x</button>
+		</div>
+
+		<!-- Hamburger menu options  -->
+
+		<div class="menu">
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="schedule.html">Schedule</a></li>
+				<li><a href="tournament.html">Tournament</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="rankings.html">Rankings</a></li>
+				<li><a href="tierlist.html">Tier List</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</div>
+		
+<!--		<header><img src="images/smash-splash.gif" alt="Smash Banner"></header>-->
+
+		<div id="content">
+			<div id="sidebar">
+
+				<a href="index.html"><img src="images/focosmash.jpg" alt="FOCO Smash Logo"></a>
+				
+				<ul>
+					<li><a href="about.html">About</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="tournament.html">Tournament</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="rankings.html">Rankings</a></li>
+                    <li><a href="tierlist.html">Tier List</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+				</ul>
+
+			</div>
+			
+			<div id="main">
+
+<!--                <img src="images/smash-splash.gif" alt="Smash Banner">-->
+                
+				<h1>Active Tournaments</h1>
+
+				<p>As a result of COVID-19, there are no current on campus tournaments.</p>
+				
+				
+				<h1>Previous Tournaments</h1>
+				
+				<div id="tournaments">
+                   <div class="tourney">
+                       <div class="smashcover">
+                            <img src="images/ultimate-cover.jpg" alt="Super Smash Bros Ultimate Cover">
+                        </div>
+				        <div class="tourneyinfo">
+                            <h2>Online Nuzlocke Tourney</h2>
+                            <h3>April 2, 2020 @ 7pm</h3>
+                            <p><a href="https://smash.gg/tournament/2nd-namki-1/details?fbclid=IwAR1vdaPvim5FSkGQ9D0u-SjG02I777_GaZm8vbZCs83BEU5Agd2NAuJKuJc">Register Here!</a></p>
+                        </div>
+                   </div>
+                   
+                   <div class="tourney">
+                       <div class="smashcover">
+                            <img src="images/ultimate-cover.jpg" alt="Super Smash Bros Ultimate Cover">
+                        </div>
+				        <div class="tourneyinfo">
+                            <h2>Namki House Online Tournament</h2>
+                            <h3>March 27, 2020 @ 7pm</h3>
+                            <p><a href="https://smash.gg/tournament/2nd-namki/details?fbclid=IwAR0C4d0x77_OiJsSVozJmBWEvXEmkKLscp-m2QP-L1MwEzeWe4PEIMVoRcM">Register Here!</a></p>
+                        </div>
+                   </div>
+                   
+                   <div class="tourney">
+                       <div class="smashcover">
+                            <img src="images/ultimate-cover.jpg" alt="Super Smash Bros Ultimate Cover">
+                        </div>
+				        <div class="tourneyinfo">
+                            <h2>CSU Weekly Wednesdays - Ultimate Singles</h2>
+                            <h3>March 12, 2020 @ 7pm</h3>
+                            <p><a href="https://smash.gg/tournament/weekly-wednesday-192/event/ultimate-singles/standings?fbclid=IwAR0C4d0x77_OiJsSVozJmBWEvXEmkKLscp-m2QP-L1MwEzeWe4PEIMVoRcM">Register Here!</a></p>
+                        </div>
+                   </div>
+                   
+                   <div class="tourney">
+                       <div class="smashcover">
+                            <img src="images/melee.jpg" alt="Super Smash Bros Melee Cover">
+                        </div>
+				        <div class="tourneyinfo">
+                            <h2>CSU Weekly Wednesdays - Melee Singles</h2>
+                            <h3>March 11, 2020 @ 7pm</h3>
+                            <p><a href="https://challonge.com/csu192singles?fbclid=IwAR2dI5XE2SBlBYH5KsQXCMpNL_iUhobexzipYgxSdo2_kKcf8-uoahIzrBE">Register Here!</a></p>
+                        </div>
+                   </div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<footer>CSU Smash Club | Copyright 2020</footer>
+
+	</div>
+
+</body>
+
+</html>

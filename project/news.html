@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- Set viewport  -->
+
+	<meta name="viewport" content="width=device-width" />
+
+	<title>CSU Smash Club | News</title>
+
+	<!-- Main style sheet  -->
+
+	<link href="css/wide.css" rel="stylesheet" type="text/css">
+
+	<!-- Narrow style sheet  -->
+
+	<link href="css/narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
+
+	<!-- Link to jquery  -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+    <!--Links to icons and fonts-->
+	
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+
+	<!-- Controls function of hamburger menu  -->
+
+	<script>
+		$(document).ready(function() {
+			$(".cross").hide();
+			$(".menu").hide();
+			$(".hamburger").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".hamburger").hide();
+					$(".cross").show();
+				});
+			});
+
+			$(".cross").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".cross").hide();
+					$(".hamburger").show();
+				});
+			});
+		});
+
+	</script>
+
+
+	<div id="wrapper">
+
+		<!-- Hamburger menu controls -->
+
+		<div id="mobile">
+			<button class="hamburger">&#x2261;</button>
+			<button class="cross">x</button>
+		</div>
+
+		<!-- Hamburger menu options  -->
+
+		<div class="menu">
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="schedule.html">Schedule</a></li>
+				<li><a href="tournament.html">Tournament</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="rankings.html">Rankings</a></li>
+				<li><a href="tierlist.html">Tier List</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</div>
+		
+<!--		<header><img src="images/smash-splash.gif" alt="Smash Banner"></header>-->
+
+		<div id="content">
+			<div id="sidebar">
+
+				<a href="index.html"><img src="images/focosmash.jpg" alt="FOCO Smash Logo"></a>
+				
+				<ul>
+					<li><a href="about.html">About</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="tournament.html">Tournament</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="rankings.html">Rankings</a></li>
+                    <li><a href="tierlist.html">Tier List</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+				</ul>
+
+			</div>
+			
+			<div id="main">
+                
+                <img src="images/crowd.jpg" alt="Crowd image">
+
+				<h1>Club News</h1>
+                <div class="newsblock">
+                   <div class="icon"><span class="material-icons">description</span></div>
+                   <div class="newstext">
+                        <p>Hey gang. </p>
+                        <p>So, earlier today CSU sent out an email saying that instead of the April 10th deadline, CSU would be moving to online courses for the rest of the semester, effective immediately. This definitely sucks, but it’s what needs to be done to ensure that the virus doesn’t spread as easily around town. </p>
+                        <p>That being said, this also means that we have now effectively extended our break from CSU Smash. At the moment, CSU Smash (for Ulti and meeting in Person) is suspended indefinitely until further notice. I know Allie is trying to figure things out on the Melee side for netplay potentially, but with how “lovely” Nintendo connection is, it’s not exactly the ideal tournament setting for Ulti. </p>
+                        <p>In terms of PR, I have no idea what I’m going to do just yet, so I’ll try to talk to y’all and see what exactly you want to do. </p>
+                        <p>Overall though, the primary point is that we’re taking a little vacation from CSU Smash, but that doesn’t mean that this is the end of it.</p>
+                        <p><b>Posted by Tom Ferrer</b></p>    
+                    </div>    
+                </div>
+                <div class="newsblock">
+                   <div class="icon"><span class="material-icons">description</span></div>
+                   <div class="newstext">
+                        <p>Welp, this might be pretty bad timing since the weeklies have closed until further notice, but I have something that might interest some people.</p>
+                        <p>I know some of you smash players play old Pokemon games. I have a full setup to distribute WISHMKR Jirachis out to Ruby and Sapphire game cartridges (from the limited edition Pokemon Colosseum bonus disc). I would be happy to bring it in and let anyone who wants a legit Jirachi swing by and grab one if anyone is interested next time the weeklies start up.</p>
+                        <p><b>Posted by Cooper Gaboda</b></p>
+                    </div>
+                </div>
+                <div class="newsblock">
+                   <div class="icon"><span class="material-icons">description</span></div>
+                   <div class="newstext">
+                        <p>Also, for those that weren’t there yesterday, an announcement about the weekly given the current situation with COVID-19, and how CSU is dealing with it. </p>
+                        <p>Currently, after the weekly next week on Wednesday, March 18th, we’ll be going on a mandatory 3 week minimum break from the weekly, per CSU requirements for non-essential meetings. This is a situation that is out of my control, and I have no say in the matter, so I’m just sharing the message and ensuring everyone knows when to not show up. </p>
+                        <p>So, assuming everything is fine and dandy after April 10th, I’ll see you all eventually, and in the meantime don’t forget to wash your hands and practice hygiene for when we return to CSU.</p>
+                        <p><b>Posted by Tom Ferrer</b></p>
+                    </div>
+                </div>
+			</div>
+
+		</div>
+
+		<footer>CSU Smash Club | Copyright 2020</footer>
+
+	</div>
+
+</body>
+
+</html>

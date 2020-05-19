@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- Set viewport  -->
+
+	<meta name="viewport" content="width=device-width" />
+
+	<title>CSU Smash Club</title>
+
+	<!-- Main style sheet  -->
+
+	<link href="css/wide.css" rel="stylesheet" type="text/css">
+
+	<!-- Narrow style sheet  -->
+
+	<link href="css/narrow.css" rel="stylesheet" media="only screen and (max-width:700px)">
+
+	<!-- Link to jquery  -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- Controls function of hamburger menu  -->
+
+	<script>
+		$(document).ready(function() {
+			$(".cross").hide();
+			$(".menu").hide();
+			$(".hamburger").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".hamburger").hide();
+					$(".cross").show();
+				});
+			});
+
+			$(".cross").click(function() {
+				$(".menu").slideToggle("slow", function() {
+					$(".cross").hide();
+					$(".hamburger").show();
+				});
+			});
+		});
+
+	</script>
+
+
+	<div id="wrapper">
+
+		<!-- Hamburger menu controls -->
+		
+<!--		<header><img src="images/smash-splash.gif" alt="Smash Banner"></header>-->
+
+		<div id="homecontent">
+			
+			<div id="main">
+                <img src="images/super-smash-bros-splash.jpg" alt="Smash Bros Ultimate Cover Image">
+
+				<h1>CSU Smash Club</h1>
+				<p>Official Site for Colorado State University's Super Smash Brothers Club.</p>
+				
+			</div>
+			
+			<div id="home">
+				
+				<ul>
+					<li><a href="about.html">About</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="tournament.html">Tournament</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="rankings.html">Rankings</a></li>
+                    <li><a href="tierlist.html">Tier List</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+		
+		<div id="mobile">
+			<button class="hamburger">&#x2261;</button>
+			<button class="cross">x</button>
+		</div>
+
+		<!-- Hamburger menu options  -->
+
+		<div class="menu">
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="schedule.html">Schedule</a></li>
+				<li><a href="tournament.html">Tournament</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="rankings.html">Rankings</a></li>
+				<li><a href="tierlist.html">Tier List</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</div>
+
+		<footer>CSU Smash Club | Copyright 2020</footer>
+
+	</div>
+
+</body>
+
+</html>

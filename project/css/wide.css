@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+body {
+	background-color: #141C26;
+	font-family: Open Sans, Arial, sans-serif;
+}
+
+img {
+	display: block;
+}
+
+#wrapper {
+	max-width: 1200px;
+	background-color: #E9F2F1;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header {}
+
+header img {
+	border: none;
+	padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+nav ul {
+	background-color: #254159;
+	margin: 0px;
+	padding: 20px;
+	list-style-type: none;
+	display: flex;
+    justify-content: space-around; 
+}
+
+nav li {
+	text-align: center;
+}
+
+#content {
+	 display: flex;
+}
+
+#main {
+	width: 96%;
+    padding-top: 20px;
+}
+
+#main img {
+	width: 96%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#main h1 {
+	font-size: 3em;
+	width: 96%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 16px;
+	margin-left: auto;
+}
+
+#main h2 {
+	width: 96%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+#main h4 {
+	width: 96%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+#main h3 {
+	width: 96%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+#main p {
+	font-size: 1.3em;
+	width: 96%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 14px;
+	margin-left: auto;
+}
+
+#home {
+	width: 100%;
+	background-color: #BAD0D9;
+    width:96%;
+    margin:auto;
+}
+
+#home h3 {
+	font-size: 1em;
+	width: 92.307%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 14px;
+	margin-left: auto;
+}
+
+#home ul {
+	list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    width:96%
+}
+
+#home li {
+	font-size: .9em;
+	line-height: 25px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#home a {
+	font-size: 1.75em;
+	color: #141C26;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#home a:hover {
+    color: #E9F2F1;
+}
+
+#tournament p {
+	font-size: 1em;
+	width: 96%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 14px;
+	margin-left: auto;
+}
+
+.tourney {
+    border: #254159 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    display:flex;
+}
+
+.smashcover {
+    width:8%;
+    margin:auto;
+    padding-left:10px;
+    padding-right:0;
+}
+
+.tourneyinfo {
+   width:92%;
+}
+
+#sidebar {
+	width: 18.7%;
+	background-color: #BAD0D9;
+}
+
+#sidebar h3 {
+	font-size: 1em;
+	width: 92.307%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 14px;
+	margin-left: auto;
+}
+
+#sidebar img{
+    width: 100%;
+}
+
+#sidebar ul {
+	list-style-type: none;
+}
+
+#sidebar li {
+	font-size: .9em;
+	line-height: 25px;
+}
+
+.newsblock {
+    border: #254159 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    display:flex;
+}
+
+.icon {
+    width:5%;
+    margin:auto;
+    padding-left:20px;
+    padding-right:0;
+}
+
+.newstext {
+    width:95%;
+}
+
+.list {
+    list-style: none;
+    font-size: 1.2em;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.listitem {
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: .5px solid #254159;
+    border-radius: 10px;
+    background-color:#6C838C;
+    color:#E9F2F1;
+}
+
+#tierList {
+    margin:auto;
+    margin-bottom: 20px;
+    width: 96%;
+    border: 1px solid black;
+    background-color:black;
+}
+
+.tierRow {
+    margin:auto;
+    width 90%;
+    border: 1px solid grey;
+    display:flex;
+}
+
+.tierBox {
+    width:10%;
+    text-align: center;
+    display:inline-block;
+}
+
+.characters {
+    width:90%;
+    display:inline-block, flex;
+    color:whitesmoke;
+}
+
+.charImg {
+    margin:auto;
+    display:inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.month {
+    border-bottom: 2px solid black;
+}
+
+footer {
+	font-size: 1em;
+	color: #E9F2F1;
+	background-color: #254159;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#sidebar a {
+	font-size: 1.2em;
+	color: #141C26;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+    color: #E9F2F1;
+}
+
+.menu {
+	display: none;
+}
+
+#mobile {
+	display: none;
+}
